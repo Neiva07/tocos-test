@@ -34,16 +34,16 @@ $ docker-compose run app yarn test
 
 The project is composed by 3 main REST APIs:
 
-*GET - /api/v1/users/{id}*
+**GET - /api/v1/users/{id}**
 
-*POST - /api/v1/users*
+**POST - /api/v1/users**
 
-*POST - /api/v1/transactions*
+**POST - /api/v1/transactions**
 
 There's also 2 additional APIs to facilitate the visualization of the database listing all the records 
 
-*GET - /api/v1/users*
-*GET - /api/v1/transactions*
+**GET - /api/v1/users**
+**GET - /api/v1/transactions**
 
 
 
