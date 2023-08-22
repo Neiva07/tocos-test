@@ -1,7 +1,5 @@
 import { NextFunction, Request, Response, query } from "express";
 import { checkExact, checkSchema, validationResult } from "express-validator";
-import { CreateUserRequest } from "./users.controllers";
-import { NotFoundError, queryUser } from "../services/users.service";
 import { ReceiverNotFoundError, SenderNotFoundError, TransactionBalanceError, executeTransaction, getTransactionsList } from "../services/transactions.service";
 
 export interface CreateTransactionRequest {
