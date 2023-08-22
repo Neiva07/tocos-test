@@ -14,9 +14,13 @@ The things you need before installing the software.
 
 A step by step guide that will tell you how to get the development environment up and running.
 
+
 ```
 $ git clone git@github.com:Neiva07/tocos-test.git
 $ cd tocos-test/server 
+
+create a `.env` file with the variables suggested on the `.env.example`
+
 $ docker-compose build && docker-compose up 
 ```
 
