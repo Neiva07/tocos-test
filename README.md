@@ -57,19 +57,20 @@ $ curl -X POST http://localhost:6868/api/v1/users -H "Content-Type: application/
   "email": "jhon@gmail.com",
   "name": "jhon",
   "tocos": 20
-}'```
+}'
+```
 
 Successful response:
+
 ```
 {"user":{"email":"jhon@gmail.com","name":"jhon","tocos":20,"createdAt":1692705930321,"id":"64e4a48ad9274059808e6c70"}}
-
 ```
 
 #### GET - /api/v1/users/{id}
 
 
 ```
-$ curl -X GET http://localhost:6868/api/v1/users/64e4a48ad9274059808e6c70
+$ curl -X GET http://localhost:6868/api/v1/users/xxxxxx
 ```
 
 Successful response:
@@ -79,7 +80,6 @@ Successful response:
 ```
 
 #### POST - /api/v1/transactions
-
 
 ```
 $ curl -X POST http://localhost:6868/api/v1/transactions -H "Content-Type: application/json" -d '{
