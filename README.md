@@ -43,6 +43,7 @@ The project is composed by 3 main REST APIs:
 There's also 2 additional APIs to facilitate the visualization of the database listing all the records 
 
 **GET - /api/v1/users**
+
 **GET - /api/v1/transactions**
 
 
