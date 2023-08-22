@@ -86,7 +86,8 @@ $ curl -X POST http://localhost:6868/api/v1/transactions -H "Content-Type: appli
   "senderId": "xxxxxxxxxx",
   "receiverId": "xxxxxxxxx",
   "amount": 20
-}'```
+}'
+```
 
 Successful response
 
@@ -101,8 +102,10 @@ Successful response
 ```
 
 If Sender does not have balance for the transaction it will receive a message:
+
 ```
 Sender does have sufficient balance
 ```
+
 with 422 status code
 
