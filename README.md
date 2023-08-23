@@ -27,7 +27,7 @@ $ docker-compose build && docker-compose up
 The project now is up and runnning
 
 
-You can access the WebApp on http://localhost:3000 once the deployment finishes
+You can access the WebApp at http://localhost:3000 once the deployment is finished 
 
 ## Testing 
 
