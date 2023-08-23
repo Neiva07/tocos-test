@@ -26,6 +26,9 @@ $ docker-compose build && docker-compose up
 
 The project now is up and runnning
 
+
+You can access the WebApp on http://localhost:3000
+
 ## Testing 
 
 You can run the integration tests by running:

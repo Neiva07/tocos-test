@@ -28,5 +28,13 @@ services:
       - DB_PORT=$MONGODB_DOCKER_PORT
     stdin_open: true
     tty: true
+  web-app:
+    depends_on:
+      - app
+    container_name: web-app
+    build: ../web-app/
+    restart: unless-stopped
+    ports: 
+      - 3000:3000
 volumes:
   db:
