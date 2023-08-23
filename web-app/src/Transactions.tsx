@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css'
 import { Grid, TextField, Button, Autocomplete, Typography } from '@mui/material'
 import { executeTransaction, getTransactions, getUsers, Transaction, User } from './apis';
 import { toast } from 'react-toastify';
